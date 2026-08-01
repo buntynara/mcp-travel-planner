@@ -223,12 +223,19 @@ Copy the example environment file:
 cp .env.example .env
 ```
 
-Update `.env` with your API keys:
+Update the `.env` file with the following values:
+
+* Your API keys
+* `PYTHON_PATH` – the path to the Python executable in your virtual environment (`venv`)
+* `AVIATIONSTACK_MCP_SERVER_PATH` – the file path to the AviationStack MCP server
+
 
 ```dotenv
 GROQ_API_KEY=your_groq_api_key
 AVIATIONSTACK_API_KEY=your_aviationstack_api_key
 TAVILY_API_KEY=your_tavily_api_key
+PYTHON_PATH=/path/to/mcp-travel-planner/.venv/bin/python
+AVIATIONSTACK_MCP_SERVER_PATH=/path/to/aviationstack-mcp-server.py
 ```
 
 ## Run the Application
