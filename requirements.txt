@@ -1,0 +1,11 @@
+python-dotenv
+langgraph
+langchain
+langchain-openai
+langchain-groq
+groq
+langchain-community
+langchain-tavily
+tavily-python
+langchain-mcp-adapters
+requests
