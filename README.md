@@ -132,7 +132,7 @@ Nodes read required state fields and return only their state updates; LangGraph 
 * LangGraph or LangChain for orchestration
 * Groq for LLM inference
 * Pydantic for structured outputs
-* Aviationstack via MCP server for flight data
+* Aviationstack via MCP server for flight data (FastMCP)
 * Tavily Search for hotel discovery
 * Requests / HTTP client libraries
 
